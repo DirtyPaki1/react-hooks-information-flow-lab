@@ -14,3 +14,4 @@ test("calls the onDarkModeClick callback prop when the button is clicked", () =>
   fireEvent.click(screen.queryByText(/ Mode/));
   expect(onDarkModeClick).toHaveBeenCalled();
 });
+
